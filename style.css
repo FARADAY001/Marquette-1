@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteneur{
+    display: flex;
+}
+
+/************************/
+
+.left{
+    background-color:white;
+    width: 40%;
+    height: 100vh;
+}
+
+.maison{
+    height: 50px;
+    width: 50px;
+    padding-top: 25px;
+    padding-left: 50px;
+  }
+
+  h1{
+    padding-top: 150px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: rgb(28, 28, 83);
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    color: #ccc;
+}
+
+button{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 160px;
+    background-color: rgb(28, 28, 83);
+    color: white;
+
+
+}
+
+
+
+/**********************************/
+.right{
+    background-color: blue;
+    background-image:url(banner.jpg);
+    background-repeat:no-repeat;
+    width: 100%;  
+    height: 100%;
+    width: 60%;
+    height: 100vh;
+}
+
+.menu{
+    background-color: rgba(173,173, 173, .7);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    display: flex;
+    padding-left: 200px;
+   
+  }
+
+  ul, li{
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    color: white;
+  }
+
+  .text{
+    background-color: white;
+    width: 50%;
+    height: 24%;
+    color: rgb(28, 28, 83);
+    margin-top: 63vh;
+    margin-left: 56vh;
+    padding-top: 15px;
+    padding-left: 20px;
+    z-index: 1;
+  }
+  
+  .text1{
+    color: rgb(28, 28, 83);
+    padding-left: 12px;
+  }
+  
+  p.text3{
+    padding-left: 10px;
+  }
+  
+  span{
+    font-size: bold;
+    color: black;
+  }
